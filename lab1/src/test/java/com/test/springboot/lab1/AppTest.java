@@ -10,7 +10,7 @@ class AppTest { // 2. JUnit 5 không cần "public" ở class và method (mặc 
     App app = new App();
     @Test
     void testIsEvenNumber2() {
-        // 3. Gọi trực tiếp hàm static, không cần "new App()"
+
         boolean result = app.isEventNumber(2);
         assertTrue(result, "Số 2 phải là số chẵn (True)");
     }
